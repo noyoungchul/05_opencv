@@ -2,9 +2,6 @@ import cv2
 import matplotlib.pylab as plt
 import pyzbar.pyzbar as pyzbar
 
-
-
-
 img = cv2.imread('../img/frame.png')
 
 plt.imshow(img)
